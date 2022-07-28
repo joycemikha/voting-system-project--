@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>vote now</title>
+<script src="vote.js">
+</script>
+<link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+<nav>
+        <ul>
+
+            <li><a href="home.html" >Home</a></li>
+			<li><a href="vote.html" >Vote Now</a></li>
+            <li><a href="create questions.html" class="active">New question</a></li>
+
+            <div class="nav-right">
+			    <li><a href="problem.html">Report problem</a></li>
+			    <li><a href="change password.html">change password</a></li>
+                <li><a href="login.html">Logout</a></li>
+
+            </div>
+        </ul>
+    </nav>
+	
+<section>
+<div class="q">
+<h2><div id="Thequestion"></div></h2>
+<div id="Choice1"></div>
+<div id="Choice2"></div>
+<div id="Choice3"></div>
+<div id="counter1"></div>
+<div id="counter2"></div>
+<div id="counter3"></div>
+<input type="button" value="start " id="btn1" onclick="poll();">
+<input type="button" value="Finish " id="btn2" onclick="result();">
+<p><label>ENTER THE QUESTION YOU WANT TO DELETE:
+<input type="number" id="del"></label></p>
+<input type="button" value="deletes" id="btn3" onclick="deletequestion();"></div>
+</section>
+</body>
+</html>

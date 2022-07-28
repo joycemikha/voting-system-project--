@@ -1,0 +1,141 @@
+body{
+	background:url('images/images.jpg');
+	background-size:cover;
+	font-family:arial;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #4393B9;
+  }
+  
+  .nav-right{
+float:right;
+  } 
+  
+.wrap{
+	max-width:350px;
+	border-radius:20px;
+	margin:auto;
+	background:rgba(0,0,0,0.8);
+	box-sizing:border-box;
+	padding:40px;
+	color:#fff;
+	margin-top:100px;
+	
+}
+h2 {
+	text-align:center;
+	color:#fff;
+}
+
+p{
+	color:#fff;
+		
+}
+input[type=text] , input[type=password] , input[type=email] , input[type=date]{
+	width:100%;
+	padding: 12px 5px;
+	background:rgba(0,0,0,0.10);
+	outline:none;
+	border:none;
+	border-bottom:1px;
+	color:#fff;
+	border-radius:5px;
+	margin:5px;
+	font-weight:bold;
+}
+input[type=submit]{
+	width:100%;
+	box-sizing:border-box;
+	padding: 10px 0;
+    margin-top:30px;
+	outline:none;
+	border:none;
+	background:#60adde;
+	border-radius:20px;
+	font-size:20px;
+	color:#fff;
+	
+}
+input[type=submit]:hover{
+	background:#003366;
+	
+	
+}
+input[type=button]:hover{
+	background:#003366;
+	
+	
+}
+.wrap1{
+	max-width:350px;
+	border-radius:20px;
+	margin:auto;
+	background:rgba(0,0,0,0.8);
+	box-sizing:border-box;
+	padding:40px;
+	color:#fff;
+    margin-top:100px;
+	
+}
+
+a{
+text-decoration:none;
+color:#008cba;
+}
+
+input[type=button]{
+	
+	width:50%;
+	box-sizing:border-box;
+	padding: 10px 0;
+    margin-top:30px;
+	outline:none;
+	border:none;
+	background:#60adde;
+	border-radius:20px;
+	font-size:20px;
+	color:#fff;
+	
+	
+}
+.q{
+	
+	max-width:350px;
+	border-radius:20px;
+	margin:auto;
+	background:rgba(0,0,0,0.8);
+	box-sizing:border-box;
+	padding:40px;
+	color:#fff;
+	margin-top:100px;
+	
+}
+
+
